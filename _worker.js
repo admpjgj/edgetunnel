@@ -1,7 +1,7 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
+let userID = 'ddf6a29f-9824-4b64-876f-9859e8d59fe9';
 let proxyIP = '';
 let DNS64Server = '';
 //let sub = '';
@@ -4159,4 +4159,5 @@ async function getUsage(accountId, email, apikey, all = 100000) {
         // 发生错误时返回默认值
         return [all, 0, 0, 0];
     }
+
 }
